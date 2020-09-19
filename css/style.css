@@ -1,0 +1,83 @@
+/* common css start */
+* {
+    font-family: 'Grandstander', cursive;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* common css end */
+
+/* header part css start */
+.header-section { 
+    position: relative;
+    height: 500px;
+    width: 100%;
+    background: linear-gradient(#1dd1a1, #10ac84);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
+    padding-top: 30px;
+}
+
+.header-text p, h1{
+    color: white;
+    text-align: center;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    position: absolute;
+    top: 100px;
+    background-color: #FFFEFF;
+    height: 500px;
+    min-width: 400px;
+    margin-top: 30px;
+    box-shadow: 3px 5px 7px grey;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.card-details h3{
+    border-bottom: 3px solid tomato;
+    margin-bottom: 30px;
+    line-height: 25px;
+}
+
+.card-details{
+    display: flex;
+    justify-content: center;
+}
+
+.form-container{
+    border: 1px solid#18C396;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.form-control{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.form-control input{
+    width: 100px;
+    line-height: 30px;
+    border: 2px solid tomato;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+input:focus{
+    outline: none;
+    border: 2px solid #18C396;
+    transform: skewX(3deg);
+}
+
+/* header part css end */
+
+
