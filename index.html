@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>CGPA Calculator - Anik Sarker</title>
 </head>
 
@@ -17,7 +17,7 @@
                 <div class="header-text">
                     <h1>Yunnan University - CGPA Calculator</h1>
                     <p>
-                        Calculate your final CGPA an
+                        Calculate your final CGPA.
                     </p>
                 </div>
             </div>
@@ -28,87 +28,102 @@
                         <div class="card-header-text">
                             <h3>Hi, YNU Guys!</h3>
                         </div>
+                        <div>
+                            <h5>Enter your all semesters GPA below!</h5>
+                        </div>
                     </div>
-                    <form class='form-container' action="">
-                        <div class="form-control">
-                            <div>
-                                1st semester
+                    <div class="form-container">
+                        <form class='' action="">
+                            <div class="form-control">
+                                <div>
+                                    <p>1st semester</p>
+                                </div>
+                                <div>
+                                    <input type="text" name="" id="sem-1" class="input">
+                                </div>
                             </div>
-                            <div>
-                                <input type="text" name="" id="">
-                            </div>
-                        </div>
 
-                        <div class="form-control">
-                            <div>
-                                2nd semester
+                            <div class="form-control">
+                                <div>
+                                    2nd semester
+                                </div>
+                                <div>
+                                    <input type="text" name="" id="sem-2" class="input">
+                                </div>
                             </div>
-                            <div>
-                                <input type="text" name="" id="">
-                            </div>
-                        </div>
 
-                        <div class="form-control">
-                            <div>
-                                3rd semester
+                            <div class="form-control">
+                                <div>
+                                    3rd semester
+                                </div>
+                                <div>
+                                    <input type="text" name="" id="sem-3" class="input">
+                                </div>
                             </div>
-                            <div>
-                                <input type="text" name="" id="">
-                            </div>
-                        </div>
 
-                        <div class="form-control">
-                            <div>
-                                4th semester
+                            <div class="form-control">
+                                <div>
+                                    4th semester
+                                </div>
+                                <div>
+                                    <input type="text" name="" id="sem-4" class="input">
+                                </div>
                             </div>
-                            <div>
-                                <input type="text" name="" id="">
-                            </div>
-                        </div>
 
-                        <div class="form-control">
-                            <div>
-                                5th semester
+                            <div class="form-control">
+                                <div>
+                                    5th semester
+                                </div>
+                                <div>
+                                    <input type="text" name="" id="sem-5" class="input">
+                                </div>
                             </div>
-                            <div>
-                                <input type="text" name="" id="">
-                            </div>
-                        </div>
 
-                        <div class="form-control">
-                            <div>
-                                6th semester
+                            <div class="form-control">
+                                <div>
+                                    6th semester
+                                </div>
+                                <div>
+                                    <input type="text" name="" id="sem-6" class="input">
+                                </div>
                             </div>
-                            <div>
-                                <input type="text" name="" id="">
-                            </div>
-                        </div>
 
-                        <div class="form-control">
-                            <div>
-                                7th semester
+                            <div class="form-control">
+                                <div>
+                                    7th semester
+                                </div>
+                                <div>
+                                    <input type="text" name="" id="sem-7" class="input">
+                                </div>
                             </div>
-                            <div>
-                                <input type="text" name="" id="">
-                            </div>
-                        </div>
 
+                            <div class="form-control">
+                                <div>
+                                    8th semester
+                                </div>
+                                <div>
+                                    <input type="text" name="" id="sem-8" class="input">
+                                </div>
+                            </div>
+                        </form>
                         <div class="form-control">
                             <div>
-                                8th semester
+                                <button onclick="handleSubmit()" class="submit-btn">Submit</button>
                             </div>
                             <div>
-                                <input type="text" name="" id="">
+                                <label for="result">Result:</label>
+                                <input type="text" name="result" id="result" class="input">
                             </div>
                         </div>
-                    </form>
+                    </div>
                 </div>
+
             </div>
         </header>
     </main>
 
 
-    <script src="/js/app.js"></script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>
