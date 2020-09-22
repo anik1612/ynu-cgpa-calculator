@@ -133,4 +133,26 @@ input:focus{
             top: 150px;
         }
     }
+
+    @media screen and (max-width: 400px){
+        body{
+            width: 100%;
+        }
+
+        .header-section{
+            width: 100%;
+            padding: 20px 35px;
+            margin: 0 auto;
+            margin-bottom: 90vh;
+        }
+
+        .header-text{
+            margin-bottom: 150px;
+        }
+        .card{
+            min-width: 372px;
+            margin: 0 auto;
+            top: 150px;
+        }
+    }
 /* responsive part start end here */
