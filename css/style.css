@@ -5,7 +5,6 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 /* common css end */
 
 /* header part css start */
@@ -143,7 +142,7 @@ input:focus{
             width: 100%;
             padding: 20px 35px;
             margin: 0 auto;
-            margin-bottom: 60vh;
+            margin-bottom: 15vh;
         }
 
         .header-text{
