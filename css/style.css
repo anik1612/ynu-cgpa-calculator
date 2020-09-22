@@ -16,6 +16,7 @@
     background: linear-gradient(#1dd1a1, #10ac84);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
     padding-top: 30px;
+    margin-bottom: 50vh;
 }
 
 .header-text p, h1{
@@ -68,7 +69,7 @@
 }
 
 .form-control input{
-    width: 100px;
+    width: 70px;
     line-height: 30px;
     border: 2px solid tomato;
     border-radius: 5px;
@@ -101,6 +102,10 @@ input:focus{
 
 .submit-btn:focus{
     transform: skew(5deg);
+}
+
+::placeholder{
+    font-weight: bold;
 }
 
 /* header part css end */
