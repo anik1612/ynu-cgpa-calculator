@@ -111,3 +111,26 @@ input:focus{
 /* header part css end */
 
 
+/* responsive part start form here */
+    @media screen and (max-width: 500px){
+        body{
+            width: 100%;
+        }
+
+        .header-section{
+            width: 100%;
+            padding: 20px 35px;
+            margin: 0 auto;
+            margin-bottom: 70vh;
+        }
+
+        .header-text{
+            margin-bottom: 150px;
+        }
+        .card{
+            width: 50%;
+            margin: 0 auto;
+            top: 150px;
+        }
+    }
+/* responsive part start end here */
